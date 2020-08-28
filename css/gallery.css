@@ -1,0 +1,189 @@
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+.gallery-wrapper {
+    width: 100%;
+    background-image: url(../img/gallery/rabstol.jpg);
+    background-color: #333;
+    background-position: center;
+    background-size: cover;
+}
+.gallery-head-text {
+    display: flex;
+    justify-content: center;
+    font-family:'Playfair Display', serif;
+}
+.gallery-head-text h1 {
+    margin: 10px auto;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 600px;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 15px;
+    border-bottom: 1px solid;
+}
+.gallery-nav {
+    display: flex;
+    justify-content: center;
+}
+
+
+.gallery-button {
+    text-align: center;
+    margin: 10px 40px;
+    width: auto;
+    height: auto;
+    background-color: #fff;
+    border: 1px solid #e9e8e8;
+    border-radius: 5px;
+   
+}
+.gallery-button h5 {
+    margin:0 0 10px;
+    color: #333;
+    letter-spacing: 1.2px;
+    font-weight: 00;
+    font-size: 18px;
+    
+}
+.gallery-button-img { 
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    
+    
+    
+}
+
+.women-hair, .kids-hair, .women-hair1,.makeup, .nails-works, .man-hair {
+    width: auto;
+    height: auto;
+    padding: 8px;
+    position: relative;
+    
+}
+.gallery-button:hover .women-hair, .gallery-button:hover .kids-hair,.gallery-button:hover .women-hair1, .gallery-button:hover .makeup, .gallery-button:hover .nails-works, .gallery-button:hover .man-hair  {
+    opacity: 0.6;
+    
+}
+.gallery-button:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/*ГАЛЕРЕЯ*/
+
+.close {
+
+position: absolute;
+right: 155px;
+top: 15px;
+width: 32px;
+height: 32px;
+opacity: 1;
+z-index: 2030;
+    
+}
+.close:hover {
+    opacity: 1;
+    border: 0.5px solid #fff;
+
+}
+.close:before, .close:after {
+position: absolute;
+left: 15px;
+content: ' ';
+height: 33px;
+width: 2px;
+background-color: #fff;
+}
+.close:before {
+transform: rotate(45deg);
+}
+.close:after {
+transform: rotate(-45deg);
+}
+
+
+
+
+
+
+.fullscreen-gallery {
+    display: none;
+    position: fixed;
+    left: 0; top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 1020;
+}
+.main.screen {
+    height: 75vh; 
+}
+
+.gallery-img {
+    width: 100%;
+}
+
+.gallery-img-img {
+    
+    margin: 0 auto;
+    
+    height: 75vh;
+    
+   
+}
+.thomb-cont img {
+    margin: 0 auto;
+    height: 20vh;
+}
+
+
+.thomb-cont {
+    margin-top: 5px;
+     width: 100%;
+    height: 19vh;
+    
+}
+.prev-arrow {
+    position: absolute;
+    width: 155px;
+    height: 75vh;
+    z-index: 2000;
+    background-color: rgba(0, 0, 0, 0.4);
+    
+}
+.next-arrow {
+    position: absolute;
+    right: 0;
+    width: 155px;
+    height: 75vh;
+    z-index: 2000;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.prev-arrow1 {
+    position: relative;
+    width: 75px;
+    height: 175px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.gallery-img2:hover .gallery-img2-img {
+    border: 3px solid #fff;
+}
+
+.footer {
+    margin-top: 50px;
+}
+

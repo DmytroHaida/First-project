@@ -1,0 +1,56 @@
+.ourTeam {
+    margin-bottom: 80px;
+    font-family: 'Playfair Display', serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.ourTeam-block {
+    text-align: center;
+    margin: 30px 0;
+    padding: 0 15px;
+}
+.ourTeam-photo {
+    width: 370px;
+    height: 370px;
+    overflow: hidden;
+}
+.Team-photo {
+    width: 370px;
+    height: 370px;
+    background-image: url(../img/ourTeam/1.jpg);
+    background-size: cover;
+}
+.Team-photo:hover {
+    transform: scale(1.1);
+    transition: all 0.4s;
+    filter: brightness(1.2);
+}
+.ourTeam-name h1 {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.ourTeam-name p {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #474747;
+    letter-spacing: 1px;
+}
+ourTeam-title {
+    width: 100%;
+    
+}
+.ourTeam-title h1 {
+    margin: 30px auto;
+    width: 600px;
+    border-bottom: solid 1px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 40px;
+    padding-bottom: 20px;
+    
+    
+}
